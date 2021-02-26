@@ -1,11 +1,13 @@
-DELETE http://localhost:3001/api/persons/4
+DELETE http://localhost:3001/api/persons/60379d5637bb4ed49544f45e
 Content-Type: application/json
 
 ###
-POST http://localhost:3001/api/persons HTTP/1.1
+PUT http://localhost:3001/api/persons/6038b273e552877767398992 HTTP/1.1
 content-type: application/json
 
 {
-  "name": "Meowskhay Patootiehehe",
-  "number": "09141242242141412"
+  "number": "123"
 }
+
+###
+GET http://localhost:3001/api/persons/6038ada5a2f6346e67af10a2
